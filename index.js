@@ -8,5 +8,5 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
  return recipes;
 }
 function deleteFromObjectByKey(object, key) {
-  
+  var newObj = Object.assign({}, recipes)
 }
