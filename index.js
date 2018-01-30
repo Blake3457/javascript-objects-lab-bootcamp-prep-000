@@ -12,7 +12,7 @@ function deleteFromObjectByKey(object, key) {
   delete newObj[key]
   return newObj
 }
-function destructivelyDeleteFromObjectByKey(recipes, prop) {
+function destructivelyDeleteFromObjectByKey(recipes, key) {
   delete recipes[key];
   return recipes;
 }
